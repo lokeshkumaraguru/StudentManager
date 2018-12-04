@@ -10,7 +10,7 @@ class student
     std::string firstname;
     std::string lastname;
   public:
-    void setName(std::string, std::string);
-    void fullName();
+    void student::setName(std::string firstname, std::string lastname);
+    std::string student::fullName();
 };
 #endif
